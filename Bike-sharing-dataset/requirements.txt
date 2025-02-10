@@ -10,4 +10,4 @@ streamlit-folium
 scikit-learn-extra==0.1.0
 scikit-learn==0.24.2
 statsmodels
-Cython
+Cython>=0.29.24
