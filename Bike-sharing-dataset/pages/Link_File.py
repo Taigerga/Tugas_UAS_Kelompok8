@@ -6,8 +6,8 @@ import seaborn as sns
 import warnings
 warnings.filterwarnings("ignore")
 def load_data():
-    hour = pd.read_csv("dataset/hour.csv")
-    day = pd.read_csv("dataset/day.csv")
+    hour = pd.read_csv("Bike-sharing-dataset/dataset/hour.csv")
+    day = pd.read_csv("Bike-sharing-dataset/dataset/day.csv")
     
     # Merge data berdasarkan 'dteday'
     bike_sharing = day.merge(hour, on='dteday', how='inner', suffixes=('_daily', '_hourly'))
@@ -40,7 +40,7 @@ if page == "🏠 Home":
     
     with st.columns(5)[2]:
      
-     st.image("images/fotologolink.png")
+     st.image("Bike-sharing-dataset/images/fotologolink.png")
      st.markdown(
         "<p style='text-align: center;'>Link</p>",
         unsafe_allow_html=True
