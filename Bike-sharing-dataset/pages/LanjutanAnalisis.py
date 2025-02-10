@@ -18,8 +18,6 @@ from statsmodels.tsa.seasonal import seasonal_decompose
 from plotly import graph_objects as go
 from statsmodels.tsa.arima.model import ARIMA
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
-import streamlit_folium
-import plotly.graph_objects as go
 
 # Load data
 @st.cache_data
