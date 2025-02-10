@@ -27,7 +27,7 @@ if page == "🏠 Home":
     
     with st.columns(5)[2]:
      
-     st.image("images/fotologokelompok.png")
+     st.image("Bike-sharing-dataset/images/fotologokelompok.png")
      st.markdown(
         "<p style='text-align: center;'>Kelompok 8</p>",
         unsafe_allow_html=True
