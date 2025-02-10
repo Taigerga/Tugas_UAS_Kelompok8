@@ -15,7 +15,7 @@ st.markdown(
     )
 
 with st.columns(5)[2]:
-    st.image("static/images/fotologosepeda.png")
+    st.image("Bike-sharing-dataset/images/fotologosepeda.png")
     st.markdown(
         "<p style='text-align: center;'>Sepeda</p>",
         unsafe_allow_html=True
@@ -28,7 +28,7 @@ with st.sidebar:
     
     col1, col2, col3 = st.columns([1, 3, 1])  # Buat 3 kolom, kolom tengah lebih besar
     with col2:  # Taruh gambar di kolom tengah
-        st.image("static/images/logo_unikom_kuning.png", caption="Universitas Komputer Indonesia", use_container_width=True)
+        st.image("Bike-sharing-dataset/images/logo_unikom_kuning.png", caption="Universitas Komputer Indonesia", use_container_width=True)
 
     # Multipage navigation
     st.markdown("### 👥 Tugas Kelompok UAS")
