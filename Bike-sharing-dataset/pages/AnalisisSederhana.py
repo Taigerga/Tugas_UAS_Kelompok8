@@ -29,8 +29,8 @@ with st.sidebar:
 # Load data (only once)
 @st.cache_data
 def load_data():
-    hour = pd.read_csv("dataset/hour.csv")
-    day = pd.read_csv("dataset/day.csv")
+    hour = pd.read_csv("Bike-sharing-dataset/dataset/hour.csv")
+    day = pd.read_csv("Bike-sharing-dataset/dataset/day.csv")
     bike_sharing = day.merge(hour, on='dteday', how='inner', suffixes=('_daily', '_hourly'))
     bike_sharing['dteday'] = pd.to_datetime(bike_sharing['dteday'])
     bike_sharing.drop_duplicates(inplace=True)
@@ -48,7 +48,7 @@ if page == "🏠 Home":
     """)
     with st.columns(5)[2]:
      
-     st.image("images/fotologosepeda1.png")
+     st.image("Bike-sharing-dataset/images/fotologosepeda1.png")
      st.markdown(
         "<p style='text-align: center;'>Sepeda</p>",
         unsafe_allow_html=True
@@ -59,7 +59,7 @@ elif page == "📊 Data Analysis":
     st.title("🚴 Bike Sharing Data Analysis")
     with st.columns(5)[2]:
      
-     st.image("images/fotologoanalisis.png")
+     st.image("Bike-sharing-dataset/images/fotologoanalisis.png")
      st.markdown(
         "<p style='text-align: center;'>Analisis</p>",
         unsafe_allow_html=True
