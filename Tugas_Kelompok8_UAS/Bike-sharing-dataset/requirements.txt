@@ -10,5 +10,4 @@ scipy
 streamlit-folium
 scikit-learn-extra
 statsmodels
-io
-os
+
