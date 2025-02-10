@@ -5,21 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import warnings
 warnings.filterwarnings("ignore")
-def load_data():
-    hour = pd.read_csv("Bike-sharing-dataset/dataset/hour.csv")
-    day = pd.read_csv("Bike-sharing-dataset/dataset/day.csv")
-    
-    # Merge data berdasarkan 'dteday'
-    bike_sharing = day.merge(hour, on='dteday', how='inner', suffixes=('_daily', '_hourly'))
-    bike_sharing['dteday'] = pd.to_datetime(bike_sharing['dteday'])
-    
-    # Data Cleaning
-    bike_sharing.drop_duplicates(inplace=True)
-    bike_sharing.dropna(inplace=True)
-    
-    return hour, day, bike_sharing
 
-hour, day, bike_sharing = load_data()
 st.markdown(
         "<h1 style='text-align: center;'>Link Tugas UAS</h1>",
         unsafe_allow_html=True
