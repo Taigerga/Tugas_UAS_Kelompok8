@@ -21,8 +21,8 @@ from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 # Load data
 @st.cache_data
 def load_data():
-    hour = pd.read_csv("dataset/hour.csv")
-    day = pd.read_csv("dataset/day.csv")
+    hour = pd.read_csv("Bike-sharing-dataset/dataset/hour.csv")
+    day = pd.read_csv("Bike-sharing-dataset/dataset/day.csv")
     
     # Merge data berdasarkan 'dteday'
     bike_sharing = day.merge(hour, on='dteday', how='inner', suffixes=('_daily', '_hourly'))
@@ -57,7 +57,7 @@ if page == "🏠 Home":
     """)
     with st.columns(5)[2]:
      
-     st.image("images/fotologosepeda2.png")
+     st.image("Bike-sharing-dataset/images/fotologosepeda2.png")
      st.markdown(
         "<p style='text-align: center;'>Sepeda</p>",
         unsafe_allow_html=True
@@ -69,7 +69,7 @@ elif page == "📊 Analisis Regresi Penyewaan Sepeda":
     st.title("📊 Analisis Regresi Penyewaan Sepeda")
     with st.columns(5)[2]:
      
-     st.image("images/fotologoanalisis.png")
+     st.image("Bike-sharing-dataset/images/fotologoanalisis.png")
      st.markdown(
         "<p style='text-align: center;'>Analisis</p>",
         unsafe_allow_html=True
@@ -121,7 +121,7 @@ elif page == "📊 Analisis Time Series: Tren Penyewaan Sepeda":
     st.title("📊 Analisis Time Series: Tren Penyewaan Sepeda")
     with st.columns(5)[2]:
      
-     st.image("images/fotologoanalisis.png")
+     st.image("Bike-sharing-dataset/images/fotologoanalisis.png")
      st.markdown(
         "<p style='text-align: center;'>Analisis</p>",
         unsafe_allow_html=True
@@ -194,7 +194,7 @@ elif page == "📊 Analisis Variansi (ANOVA)":
     st.title("📊 Analisis Variansi (ANOVA)")
     with st.columns(5)[2]:
      
-     st.image("images/fotologoanalisis.png")
+     st.image("Bike-sharing-dataset/images/fotologoanalisis.png")
      st.markdown(
         "<p style='text-align: center;'>Analisis</p>",
         unsafe_allow_html=True
@@ -254,7 +254,7 @@ elif page == "🧠 Data Mining: Clustering Penyewaan Sepeda":
     st.title("🧠 Data Mining: Clustering Penyewaan Sepeda")
     with st.columns(5)[2]:
      
-     st.image("images/fotologobuku.png")
+     st.image("Bike-sharing-dataset/images/fotologobuku.png")
      st.markdown(
         "<p style='text-align: center;'>Data Mining</p>",
         unsafe_allow_html=True
@@ -306,7 +306,7 @@ elif page == "🧠 Data Mining: Clustering & Analisis Diskriminan":
     st.title("🧠 Data Mining: Clustering & Analisis Diskriminan")
     with st.columns(5)[2]:
      
-     st.image("images/fotologobuku.png")
+     st.image("Bike-sharing-dataset/images/fotologobuku.png")
      st.markdown(
         "<p style='text-align: center;'>Data Mining</p>",
         unsafe_allow_html=True
@@ -355,7 +355,7 @@ elif page == "📍 Geoanalysis":
     st.title("📍 Geoanalysis: Peta Stasiun Penyewaan Sepeda")
     with st.columns(5)[2]:
      
-     st.image("images/fotologoglobe.png")
+     st.image("Bike-sharing-dataset/images/fotologoglobe.png")
      st.markdown(
         "<p style='text-align: center;'>Map</p>",
         unsafe_allow_html=True
