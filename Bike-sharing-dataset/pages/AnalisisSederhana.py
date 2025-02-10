@@ -328,7 +328,7 @@ elif page == "👥 Kontribusi":
     st.title("👥 Kontribusi")
     with st.columns(5)[2]:
      
-     st.image("images/fotologokelompok.png")
+     st.image("Bike-sharing-dataset/images/fotologokelompok.png")
      st.markdown(
         "<p style='text-align: center;'>Sepeda</p>",
         unsafe_allow_html=True
@@ -349,7 +349,7 @@ elif page == "❓ Pertanyaan":
     st.title("❓ Pertanyaan")
     with st.columns(5)[2]:
      
-     st.image("images/fotologopertanyaan.png")
+     st.image("Bike-sharing-dataset/images/fotologopertanyaan.png")
      st.markdown(
         "<p style='text-align: center;'>Pertanyaan Tentang Bike-Sharing</p>",
         unsafe_allow_html=True
@@ -384,7 +384,7 @@ elif page == "🧾 Jawaban":
     st.title("🧾 Jawaban Dari Pertanyaan")
     with st.columns(5)[2]:
      
-     st.image("images/fotologojawaban.png")
+     st.image("Bike-sharing-dataset/images/fotologojawaban.png")
      st.markdown(
         "<p style='text-align: center;'>Jawaban</p>",
         unsafe_allow_html=True
