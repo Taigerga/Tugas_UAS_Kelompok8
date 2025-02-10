@@ -16,7 +16,7 @@ st.markdown(
 
 with st.columns(5)[2]:
      
-     st.image("images/fotologosepeda.png")
+     st.image("../images/fotologosepeda.png")
      st.markdown(
         "<p style='text-align: center;'>Sepeda</p>",
         unsafe_allow_html=True
