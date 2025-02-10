@@ -29,7 +29,7 @@ with st.sidebar:
     
     col1, col2, col3 = st.columns([1, 3, 1])  # Buat 3 kolom, kolom tengah lebih besar
     with col2:  # Taruh gambar di kolom tengah
-        st.image("images/logo_unikom_kuning.png", caption="Universitas Komputer Indonesia", use_container_width=True)
+        st.image("../images/logo_unikom_kuning.png", caption="Universitas Komputer Indonesia", use_container_width=True)
 
     # Multipage navigation
     st.markdown("### 👥 Tugas Kelompok UAS")
@@ -44,8 +44,8 @@ with st.sidebar:
 # Load data
 @st.cache_data
 def load_data():
-    hour = pd.read_csv("dataset/hour.csv")
-    day = pd.read_csv("dataset/day.csv")
+    hour = pd.read_csv("../dataset/hour.csv")
+    day = pd.read_csv("../dataset/day.csv")
     
     # Merge data berdasarkan 'dteday'
     bike_sharing = day.merge(hour, on='dteday', how='inner', suffixes=('_daily', '_hourly'))
