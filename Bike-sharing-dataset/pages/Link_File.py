@@ -56,4 +56,8 @@ elif page == "🔗Link Github":
     st.write("""
     **Ini Link Filenya :
     """)
-    
+    # Link ke repositori GitHub
+    github_url = "https://github.com/username/repository"  # Ganti dengan link GitHub yang diinginkan
+
+    # Menampilkan link ke GitHub
+    st.markdown(f"[Klik di sini untuk mengunjungi repositori GitHub]({github_url})")
