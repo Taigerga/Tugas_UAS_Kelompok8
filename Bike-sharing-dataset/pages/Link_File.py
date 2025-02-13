@@ -37,11 +37,11 @@ elif page == "🔗Link Youtube":
     st.write("""
     **Ini Link Filenya :
     """)
-    # Link YouTube
-    video_url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"  # Ganti dengan link yang diinginkan
+    # Link ke channel YouTube
+    youtube_channel_url = "https://www.youtube.com/@YourChannel"  # Ganti dengan link channel YouTube Anda
 
-    # Menampilkan video YouTube
-    st.video(video_url)
+    # Menampilkan link ke channel YouTube
+    st.markdown(f"[Klik di sini untuk mengunjungi channel YouTube]({youtube_channel_url})")
     
 
 elif page == "🔗Link Streamlit":
