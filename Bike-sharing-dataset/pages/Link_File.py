@@ -47,7 +47,7 @@ elif page == "🔗Link Youtube":
 elif page == "🔗Link Streamlit":
     st.title("🚴 Link Streamlit")
     st.write("""
-    **Ini Link Filenya :
+    **Ini Link Filenya** :
     """)
     # Link ke repositori GitHub
     streamlit_url = "https://tugasuaskelompok8-cw7psxezjxpwbauaihzdpq.streamlit.app/"  
@@ -58,7 +58,7 @@ elif page == "🔗Link Streamlit":
 elif page == "🔗Link Github":
     st.title("🚴 Link Github")
     st.write("""
-    **Ini Link Filenya :
+    **Ini Link Filenya** :
     """)
     # Link ke repositori GitHub
     github_url = "https://github.com/Taigerga/Tugas_UAS_Kelompok8/tree/main/Bike-sharing-dataset"  
