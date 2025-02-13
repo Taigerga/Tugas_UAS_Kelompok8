@@ -57,7 +57,7 @@ elif page == "🔗Link Github":
     **Ini Link Filenya :
     """)
     # Link ke repositori GitHub
-    github_url = "https://github.com/username/repository"  # Ganti dengan link GitHub yang diinginkan
+    github_url = "https://github.com/Taigerga/Tugas_UAS_Kelompok8/tree/main/Bike-sharing-dataset"  # Ganti dengan link GitHub yang diinginkan
 
     # Menampilkan link ke GitHub
     st.markdown(f"[Klik di sini untuk mengunjungi repositori GitHub]({github_url})")
