@@ -38,7 +38,7 @@ elif page == "🔗Link Youtube":
     **Ini Link Filenya** :
     """)
     # Link ke channel YouTube
-    youtube_channel_url = "https://www.youtube.com/@YourChannel"  
+    youtube_channel_url = "https://youtu.be/Ctzhuc68qkY"  
 
     # Menampilkan link ke channel YouTube
     st.markdown(f"[Klik di sini untuk mengunjungi channel YouTube]({youtube_channel_url})")
