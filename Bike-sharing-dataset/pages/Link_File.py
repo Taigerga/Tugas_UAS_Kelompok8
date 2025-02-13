@@ -35,7 +35,7 @@ if page == "🏠 Home":
 elif page == "🔗Link Youtube":
     st.title("🚴 Link Youtube")
     st.write("""
-    **Ini Link Filenya :
+    **Ini Link Filenya** :
     """)
     # Link ke channel YouTube
     youtube_channel_url = "https://www.youtube.com/@YourChannel"  
