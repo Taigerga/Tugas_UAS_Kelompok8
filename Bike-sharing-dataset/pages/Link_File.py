@@ -37,6 +37,11 @@ elif page == "🔗Link Youtube":
     st.write("""
     **Ini Link Filenya :
     """)
+    # Link YouTube
+    video_url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"  # Ganti dengan link yang diinginkan
+
+    # Menampilkan video YouTube
+    st.video(video_url)
     
 
 elif page == "🔗Link Streamlit":
