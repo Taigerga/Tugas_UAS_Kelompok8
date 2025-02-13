@@ -38,7 +38,7 @@ elif page == "🔗Link Youtube":
     **Ini Link Filenya :
     """)
     # Link ke channel YouTube
-    youtube_channel_url = "https://www.youtube.com/@YourChannel"  # Ganti dengan link channel YouTube Anda
+    youtube_channel_url = "https://www.youtube.com/@YourChannel"  
 
     # Menampilkan link ke channel YouTube
     st.markdown(f"[Klik di sini untuk mengunjungi channel YouTube]({youtube_channel_url})")
@@ -49,7 +49,11 @@ elif page == "🔗Link Streamlit":
     st.write("""
     **Ini Link Filenya :
     """)
-    
+    # Link ke repositori GitHub
+    streamlit_url = "https://tugasuaskelompok8-cw7psxezjxpwbauaihzdpq.streamlit.app/"  
+
+    # Menampilkan link ke GitHub
+    st.markdown(f"[Klik di sini untuk mengunjungi Streamlit]({streamlit_url})")
 
 elif page == "🔗Link Github":
     st.title("🚴 Link Github")
@@ -57,7 +61,7 @@ elif page == "🔗Link Github":
     **Ini Link Filenya :
     """)
     # Link ke repositori GitHub
-    github_url = "https://github.com/Taigerga/Tugas_UAS_Kelompok8/tree/main/Bike-sharing-dataset"  # Ganti dengan link GitHub yang diinginkan
+    github_url = "https://github.com/Taigerga/Tugas_UAS_Kelompok8/tree/main/Bike-sharing-dataset"  
 
     # Menampilkan link ke GitHub
     st.markdown(f"[Klik di sini untuk mengunjungi repositori GitHub]({github_url})")
